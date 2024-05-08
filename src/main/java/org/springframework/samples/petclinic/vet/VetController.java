@@ -35,6 +35,7 @@ import io.github.wimdeblauwe.htmx.spring.boot.mvc.HxRequest;
  * @author Arjen Poutsma
  * @author Alexandre Grison
  */
+
 @Controller
 class VetController {
 
