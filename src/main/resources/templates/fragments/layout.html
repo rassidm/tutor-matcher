@@ -26,7 +26,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
     <div class="container-fluid">
-      <a class="navbar-brand" th:href="@{/}"><span></span></a>
+<!--      <a class="navbar-brand" th:href="@{/}"><span></span></a>-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,9 +63,9 @@
           </li>
 
           <li
-            th:replace="~{::menuItem ('/oups','error','trigger a RuntimeException to see how it is handled','exclamation-triangle','Error','#block-content')}">
+              th:replace="~{::menuItem ('/oups','Logout','trigger a RuntimeException to see how it is handled','exclamation-triangle','Logout','#block-content')}">
             <span class="fa exclamation-triangle" aria-hidden="true"></span>
-            <span>Error2</span>
+            <span>Error</span>
           </li>
 
         </ul>
